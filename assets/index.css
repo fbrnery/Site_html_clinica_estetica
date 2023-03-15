@@ -8,8 +8,8 @@ body {
   margin-top: -10px;
 }
 
-.navbar-expand-md {
-    flex-wrap: nowrap;
+.navbar-expand-sm {
+    flex-wrap: initial;
     justify-content: flex-start;
     background-color: lavenderblush;
 }
