@@ -1,0 +1,152 @@
+* Padding below the footer and lighter body text */
+
+body {
+  color: #2C3E50;
+  background-color:	#FFFFFF; !important
+  padding-top: -10px;
+  padding-bottom: 0px;
+  margin-top: -10px;
+}
+
+.navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: lavenderblush;
+}
+
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #531345;
+    margin-top: -8px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 80px;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+    background-color: #FF00FF;
+    border-radius: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    float: inline-start;
+  }
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: darkorchid;
+    text-decoration: #2C3E50;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.carousel-caption {
+  line-height: 1.43;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em black,
+    0 0 0.1em black,
+    0 0 0.1em black;
+  z-index: 0px;
+  margin-bottom: -25px;
+  margin-top: 0px;
+  color: #fff;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+ /* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .marketing .col-lg-4 {
+    margin-left: 30px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card-img-top {
+    border-radius: 100px 100px 100px 100px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: 50%;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+/*footer rodapé*/
+.bs-docs-footer {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  color: #531345;
+  text-align: center;
+  background-color: lightpink;
+}
+
+.rodape {
+  font-family: 'PT Serif', serif;
+  background-color: #cd2ea9;
+  color: #531345;
+  padding: 18px;
+  margin-bottom: -13px;
+}
+p {
+    text-align: justify;
+}
+
+
+
+
+
+
